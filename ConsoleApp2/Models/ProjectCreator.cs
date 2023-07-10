@@ -17,5 +17,6 @@ namespace ConsoleApp2.Models
         public int Id { get; set; }
         public virtual User? User { get; set; }
         public virtual IEnumerable<Project> Projects { get; set; } = new List<Project>();
+        public string Description { get; set; }
     }
 }
